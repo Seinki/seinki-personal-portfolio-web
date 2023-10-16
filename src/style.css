@@ -31,7 +31,7 @@ nav {
   /* background-color: aqua; */
   max-width: 1200px;
   margin: auto;
-  padding: 2rem 1rem;
+  padding: 1.25rem 1rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -85,4 +85,36 @@ nav {
   border-color: #0077ff;
   color: rgb(233, 233, 233);
   transition: all 0.3s ease;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 2rem 1rem;
+  padding-top: 5rem;
+  gap: 3rem;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.content h4 {
+  font-weight: 500;
+}
+
+.content h1 {
+  font-size: 3rem;
+  padding-bottom: 1rem;
+  gap: 0;
+}
+
+.desc h1 > span {
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke: black;
+  -webkit-text-stroke-width: 2px;
 }
