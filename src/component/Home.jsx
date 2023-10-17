@@ -22,17 +22,19 @@ export default function Home() {
           </p>
           <ul className="socials">
             <li className="social">
-              <a href={socialsLink1}>
+              <a href={socialsLink1} target='_blanck'>
                 <img src={socialsIcon1} alt="" />
               </a>
             </li>
             <li className="social">
-              <a href={socialsLink2}>
-              <img src={socialsIcon2} alt="" />
+              <a href={socialsLink2} target='_blanck'>
+                <img src={socialsIcon2} alt="" />
               </a>
             </li>
             <li className="social">
-              <a href={socialsLink3}>{socialsIcon3}</a>
+              <a href={socialsLink3} target='_blanck'>
+              <img src={socialsIcon3} alt="" />
+              </a>
             </li>
           </ul>
           {/* <button className="btn">

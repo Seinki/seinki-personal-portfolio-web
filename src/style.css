@@ -31,11 +31,11 @@ nav {
   /* background-color: aqua; */
   max-width: 1200px;
   margin: auto;
-  padding: 1.25rem 1rem;
+  padding: 1rem 1rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 2rem;
+  gap: 3rem;
 }
 
 .nav-logo {
@@ -46,7 +46,7 @@ nav {
   list-style: none;
   display: flex;
   align-items: center;
-  gap: 3rem;
+  gap: 2rem;
 }
 
 .link a {
@@ -117,4 +117,17 @@ nav {
   -webkit-text-fill-color: white;
   -webkit-text-stroke: black;
   -webkit-text-stroke-width: 2px;
+}
+
+.socials {
+  list-style: none;
+  padding-top: 2rem;
+  display: flex;
+  max-width: 120px;
+  gap: 1rem;
+}
+
+.socials:hover {
+  content: url('/src/assets/socials-icon/instagram-line.svg');
+  transform: scale(1.1);
 }
