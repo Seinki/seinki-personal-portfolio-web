@@ -116,12 +116,17 @@ export default function Resume() {
           <h2>Educations</h2>
         </div>
         <div className="edu-content">
-          <ul className="edu1" id="edu1">
-            li.
-          </ul>
+          <div className="edu1">
+            <ul className="edu1-content">
+              <li>
+                <h4 className="edu1-major">Computer & Network Engineering</h4>
+                <h5 className="edu1-instance">Al Hadi Bandung Vocational High School</h5>
+                <p className="edu1-graduate">Graduates in 2019</p>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
-
     </section>
   )
 }
