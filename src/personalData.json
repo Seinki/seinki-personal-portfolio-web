@@ -15,6 +15,7 @@
         "link": "https://github.com/Seinki",
         "icon": "/src/assets/socials-icon/github-fill.svg"
       }
-    }
+    },
+    "aboutImg": "/src/assets/about-me.png"
   }
 }
