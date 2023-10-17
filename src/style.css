@@ -195,10 +195,14 @@ nav {
   align-items: center;
   justify-content: center;
   font-size: 2rem;
-  /* margin: auto; */
-  padding-bottom: 2rem;
   margin-bottom: 5rem;
-  border-bottom: #000000;
+}
+
+.exp-title h2 {
+  border-bottom: 2px solid black;
+  border-bottom-right-radius: 1rem;
+  max-width: 170px;
+  margin-bottom: 2rem;
 }
 
 .exp-content {
@@ -241,7 +245,10 @@ nav {
   font-weight: 600;
 }
 
-.contentExp1 > h5 p {
+.contentExp1 > h5 {
+  font-weight: 400;
+}
+.contentExp1 > p {
   font-weight: 600;
 }
 
@@ -263,6 +270,7 @@ nav {
 }
 
 .description {
+  border-top: 1px solid black;
   list-style: circle;
   padding: 0rem 0rem 0rem 2rem;
 }
@@ -273,7 +281,10 @@ nav {
   font-weight: 600;
 }
 
-.contentExp2 > h5 p {
+.contentExp2 > h5 {
+  font-weight: 400;
+}
+.contentExp2 > p {
   font-weight: 600;
 }
 
@@ -295,10 +306,18 @@ nav {
 }
 
 .description {
+  border-top: 1px solid black;
   list-style: circle;
   padding: 0rem 0rem 0rem 2rem;
 }
 
 .contentExp2 > .description {
-  margin-bottom: 11.11rem;
+  margin-bottom: 7.80rem;
+}
+
+/* Educations section */
+.edu-title h2 {
+  border-bottom: 2px solid black;
+  border-bottom-right-radius: 1rem;
+  max-width: 170px;
 }

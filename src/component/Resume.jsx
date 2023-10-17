@@ -72,7 +72,6 @@ export default function Resume() {
                   {exp1.tools[1]}
                 </span>
               </div>
-              <hr />
               <ul className="description">
                 <li>{exp1.description[0]}</li>
                 <li>{exp1.description[1]}</li>
@@ -112,10 +111,14 @@ export default function Resume() {
             </div>
           </div>
 
-          {/* Experience 2 */}
         </div>
         <div className="edu-title">
           <h2>Educations</h2>
+        </div>
+        <div className="edu-content">
+          <ul className="edu1" id="edu1">
+            li.
+          </ul>
         </div>
       </div>
 
