@@ -16,6 +16,42 @@
         "icon": "/src/assets/socials-icon/github-fill.svg"
       }
     },
-    "aboutImg": "/src/assets/about-me.png"
+    "aboutImg": "/src/assets/about-me.png",
+    "experience": {
+      "exp1": {
+        "title": "Staff Warehouse",
+        "jobdesc": "DWS Operation at Ninja Xpress",
+        "address": "Pakemitan, Cinambo, Bandung City, West Java",
+        "date": "December 2021 - Present : Part Time / Freelance",
+        "tools": ["ATS Scanner", "DWS Scanner"],
+        "description": [
+          "Scan the package with a device scanner or special scanning device to be sorted based on the destination of the package and so that the data is from the receipt numberautomatically input.",
+          "Then scan the package using a special computer called DWS (Dimentation, Weight, and Scanning) to get more accurate databased on dimensions, weight, size and visual shape of a package.",
+          "Create and prepare a special barcode for each sack that will be filled in the packagebased on data from the system.",
+          "As well as re-scanning the package using a special scanner device from the results DWS (Dimentation, Weight, and Scanning) scan to enter sacks (depending on the weight and size of the package) ready to be loaded onto the truck logistics."
+        ]
+      },
+      "exp2": {
+        "title": "Junior Web Dev",
+        "jobdesc": "Junior Web Development at Baraka Solution",
+        "address": "Remote Job",
+        "date": "November 2022 - December 2022 : Intership",
+        "tools": [
+          "Figma",
+          "Frontend Tools",
+          "VS code",
+          "Git & GitHub"
+        ],
+        "description": [
+          "Deepening skills through 'Skill Summit' activities by the RubicWeb team.",
+          "Prototype website/web form design submission.",
+          "Customization of website appearance.",
+          "Operation of GIT to synchronize website files.",
+          "Website activation",
+          "Website performance report",
+          "Hosting management (bandwidth, data backup, data restore)"
+        ]
+      }
+    }
   }
 }

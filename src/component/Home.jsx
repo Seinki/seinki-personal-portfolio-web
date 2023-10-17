@@ -10,7 +10,7 @@ export default function Home() {
   const socialsIcon3 = personalData.main.socials.github.icon
   return (
     <header id="home" className="container">
-      <div className="content">
+      <div className="home-content">
         <div className="desc">
           <h4>Welcome to my Personal Portfolio</h4>
           <h1>
