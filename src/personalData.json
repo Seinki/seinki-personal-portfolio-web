@@ -88,6 +88,26 @@
       "virtualbox": "/src/assets/tools-icons/virtualbox.svg",
       "git": "/src/assets/tools-icons/git.svg",
       "github": "/src/assets/tools-icons/github.svg"
+    },
+    "portfolio": {
+      "port1": {
+        "link": "https://www.figma.com/file/YvxnkuoZ278fq4YZXrPMCv/Tugas-Project-UI-(RubicWeb---Seinki)?type=design&node-id=0-1&mode=design&t=mkHe4MXR7JKlF8Ft-0",
+        "images": "/src/assets/portfolio-images/port1.jpeg",
+        "title": "UI/UX Design E-Commerce",
+        "desc": "Implementation of knowledge on the use of one of the very popular web interface design tools, Figma, during the internship at Baraka Solution."
+      },
+      "port2": {
+        "link": "https://github.com/Seinki/Project-Implementasi-Skill-Web-PlanetBurger-",
+        "images": "/src/assets/portfolio-images/port2.jpeg",
+        "title": "E-Commerce Planet Burger",
+        "desc": "Implementation of knowledge about one of the programming tools such as HTML, CSS, & Javascript during the internship at Baraka Solution."
+      },
+      "port3": {
+        "link": "",
+        "images": "/src/assets/portfolio-images/port3.jpeg",
+        "title": "Development of this Portfolio Web",
+        "desc": "This Personal Web Portfolio will continue to be developed regularly with a more attractive appearance in the future."
+      }
     }
   }
 }
