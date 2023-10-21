@@ -52,6 +52,42 @@
           "Hosting management (bandwidth, data backup, data restore)"
         ]
       }
+    },
+    "skills": {
+      "card1": {
+        "img": "/src/assets/skills-images/web-development.jpg",
+        "title": "Web Development",
+        "desc": "Create and build front-end websites using tools such as HTML, CSS, Javascript and also use the React framework."
+      },
+      "card2": {
+        "img": "/src/assets/skills-images/it-support.webp",
+        "title": "IT Support",
+        "desc": "Resolve problems related to hardware, software, and other IT issues faced by end users."
+      },
+      "card3": {
+        "img": "/src/assets/skills-images/networking.jpg",
+        "title": "Networking",
+        "desc": "Configuring, monitoring, analyzing, troubleshooting, maintaining, and optimize computer networks."
+      },
+      "card4": {
+        "img": "/src/assets/skills-images/ethical-hacking.jpg",
+        "title": "Ethical Hacking: Pentester",
+        "desc": "Identify and evaluate potential vulnerabilities and weaknesses in computer systems, networks or software applications with authorized permissions."
+      }
+    },
+    "tools": {
+      "html": "/src/assets/tools-icons/html.svg",
+      "css": "/src/assets/tools-icons/css.svg",
+      "javascript": "/src/assets/tools-icons/javascript.svg",
+      "react": "/src/assets/tools-icons/react.svg",
+      "vite": "/src/assets/tools-icons/vite.svg",
+      "golang": "/src/assets/tools-icons/golang.svg",
+      "linux": "/src/assets/tools-icons/linux.png",
+      "kalilinux": "/src/assets/tools-icons/kalilinux.svg",
+      "vscode": "/src/assets/tools-icons/vscode.svg",
+      "virtualbox": "/src/assets/tools-icons/virtualbox.svg",
+      "git": "/src/assets/tools-icons/git.svg",
+      "github": "/src/assets/tools-icons/github.svg"
     }
   }
 }
