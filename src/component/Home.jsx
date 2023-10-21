@@ -2,12 +2,8 @@ import personalData from '../personalData.json';
 
 export default function Home() {
   const heroImg = personalData.main.heroImg
-  const socialsLink1 = personalData.main.socials.instagram.link
-  const socialsLink2 = personalData.main.socials.linkedin.link
-  const socialsLink3 = personalData.main.socials.github.link
-  const socialsIcon1 = personalData.main.socials.instagram.icon
-  const socialsIcon2 = personalData.main.socials.linkedin.icon
-  const socialsIcon3 = personalData.main.socials.github.icon
+  const socials = personalData.main.socials;
+
   return (
     <header id="home" className="container">
       <div className="home-content">
@@ -22,18 +18,18 @@ export default function Home() {
           </p>
           <ul className="socials">
             <li className="social">
-              <a href={socialsLink1} target='_blanck'>
-                <img src={socialsIcon1} alt="" />
+              <a href={socials.instagram.link} target='_blanck'>
+                <img src={socials.instagram.icon} alt="" />
               </a>
             </li>
             <li className="social">
-              <a href={socialsLink2} target='_blanck'>
-                <img src={socialsIcon2} alt="" />
+              <a href={socials.linkedin.link} target='_blanck'>
+                <img src={socials.linkedin.icon} alt="" />
               </a>
             </li>
             <li className="social">
-              <a href={socialsLink3} target='_blanck'>
-              <img src={socialsIcon3} alt="" />
+              <a href={socials.github.link} target='_blanck'>
+              <img src={socials.github.icon} alt="" />
               </a>
             </li>
           </ul>
