@@ -424,7 +424,7 @@ nav {
   font-weight: bold;
 }
 
-.card > img {
+.card>img {
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
 }
@@ -432,9 +432,11 @@ nav {
 #cards1 {
   padding-bottom: 1.60rem;
 }
+
 #cards2 {
   padding-bottom: 2.75rem;
 }
+
 #cards3 {
   padding-bottom: 2.75rem;
 }
@@ -452,7 +454,7 @@ nav {
   justify-content: center;
   margin: 2rem;
   padding: 2rem;
-  gap: 4; 
+  gap: 4;
 }
 
 .tools-img {
@@ -460,6 +462,7 @@ nav {
   transition: all 0.3s ease-in-out;
   gap: 4;
 }
+
 .tools-img:hover {
   /* border: 1px solid black; */
   box-shadow: -13px 16px 25px -8px rgba(0, 0, 0, 0.46);
@@ -467,6 +470,7 @@ nav {
   -moz-box-shadow: -13px 16px 25px -8px rgba(0, 0, 0, 0.46);
   transition: all 0.3s ease-in-out;
 }
+
 /* .html .css .javascript .react .vite .golang .linux .vscode .virtualbox .git .github > img:hover {
   border: 1px solid black;
   box-shadow: -13px 16px 25px -8px rgba(0, 0, 0, 0.46);
@@ -480,6 +484,7 @@ nav {
   max-width: 140px;
   margin-top: 2.50rem;
 }
+
 .sub-tools-title2 {
   border-bottom: 2px solid black;
   border-bottom-right-radius: 1rem;
@@ -487,9 +492,75 @@ nav {
   margin-top: 2.50rem;
 }
 
-/* .dummy {
-  margin: 1rem;
-} */
-/* #stt-2 {
-  position: absolute;
-} */
+/* Portfolio Section */
+.porfolio-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  margin-bottom: 5rem;
+  border-bottom: 1px black;
+  border-radius: 1rem;
+}
+
+.portfolio-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* max-width: 50rem; */
+  margin: 2rem;
+  padding: 1rem;
+  gap: 4;
+  text-align: center;
+  font-size: 15px;
+}
+
+.port1 {
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 1rem;
+}
+
+.port-img {
+  max-width: 15rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin: 1rem;
+  padding: 0rem 0rem 1rem 2rem; */
+}
+
+/* Portfolio Section */
+.card-port-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.btn-portfolio {
+  background-color: white;
+  font-size: 1rem;
+  padding: 0.50rem 1.50rem 0.50rem 1.50rem;
+  border-radius: 0.50rem;
+  box-shadow: -5px 5px 8px 0px rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: -5px 8px 10px 0px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: -5px 5px 8px 0px rgba(0, 0, 0, 0.15);
+}
+
+.btn-portfolio:hover {
+  background-color: aliceblue;
+  border: 1px solid black;
+  box-shadow: -10px 10px 15px 0px rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: -10px 10px 15px 0px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: -10px 10px 15px 0px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease-in-out;
+}
+
+.link-portfolio {
+  text-decoration-color: none;
+  color: black;
+}
