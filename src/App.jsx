@@ -1,3 +1,4 @@
+import './personalData.json'
 import './style.css'
 import Navbar from './component/Navbar'
 import Home from './component/Home'
