@@ -6,7 +6,7 @@ export default function Portfolio() {
     <section className="container">
       <div className="portfolio">
         <div className="portfolio-title about-title">
-          <h1>Portfolio</h1>
+          <h1>Portfolios</h1>
         </div>
         <div className="card-port-container">
           {/* card 1 */}
